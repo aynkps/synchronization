@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84a14019-19d2-4ba6-8405-723a7e6ca90b">
+  <producedTypes>
+    <objectType typeId="fb322ca0-042b-4eaa-a096-7569a7e6e555" valueTypeId="8d8b2db8-4992-4be3-b206-669eadccda5a"/>
+  </producedTypes>
+  <name>Синхронизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="cdddfb64-55e3-48ea-a1ce-488786b747d6"/>
+  <defaultForm>ExternalDataProcessor.Синхронизация.Form.Форма</defaultForm>
+  <attributes uuid="001c103e-6fbd-4aed-a5dd-92c2a8aa25f6">
+    <name>РабочийКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий каталог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e11bc942-c80b-4082-af6b-91965003f6f4">
+    <name>ЗадержкаСканирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задержка сканирования</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="486c10c7-ad2c-4f4c-a526-ab4852bd1eac">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e244dd44-59b6-4d60-a481-a48a691d5d18">
+    <name>ОтчетАгенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет агенту</value>
+    </synonym>
+  </templates>
+  <templates uuid="8808de3a-21f9-429a-a4e2-69c0bf417069">
+    <name>Борт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Борт</value>
+    </synonym>
+  </templates>
+  <templates uuid="46a716c1-c028-4a24-a4d1-ca5e9bea19d7">
+    <name>ОвощиФрукты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Овощи фрукты</value>
+    </synonym>
+  </templates>
+  <templates uuid="4e27f531-8b0a-4e40-ab68-b90c6629c523">
+    <name>Маршрут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрут</value>
+    </synonym>
+  </templates>
+  <templates uuid="c8721e38-4898-42f6-9bfe-d8a879891b21">
+    <name>ЛимитЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит заказа</value>
+    </synonym>
+  </templates>
+  <templates uuid="70dc1248-9b84-4c1c-a329-faaa4d62cd92">
+    <name>Отгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+  </templates>
+  <templates uuid="ed45d8e1-6469-4dd2-a460-f62de9133b62">
+    <name>ЗаказыБР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы БР</value>
+    </synonym>
+  </templates>
+  <templates uuid="7e305aa2-d03f-4786-997a-0c669ef5fa59">
+    <name>ЗаказыБР_Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы БР (новый)</value>
+    </synonym>
+  </templates>
+  <templates uuid="54025ca2-f549-4e88-9cb7-b8b8c8241543">
+    <name>МаршрутТранзит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрут транзит</value>
+    </synonym>
+  </templates>
+  <templates uuid="00056bde-b267-4a29-808d-9944fe323451">
+    <name>ЗатратыНаДоставку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затраты на доставку</value>
+    </synonym>
+  </templates>
+  <templates uuid="161cc247-bf92-4e7d-979a-5c205a12e940">
+    <name>Бонусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бонусы</value>
+    </synonym>
+  </templates>
+  <templates uuid="8779eea2-a934-4c1a-acb0-fae7829df5cf">
+    <name>Посещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посещения</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
